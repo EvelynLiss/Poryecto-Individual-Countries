@@ -1,0 +1,7 @@
+.cardGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 900px; /* Ajusta este valor según tus necesidades */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+}

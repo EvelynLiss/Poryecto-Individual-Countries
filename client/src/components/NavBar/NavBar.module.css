@@ -1,0 +1,30 @@
+.navBar {
+    background-color: #ffbb00c9;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navBar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navBar li {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.navBar li:last-child {
+    margin-right: 0;
+}
+
+.navBar li:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el SearchBar, ajusta estos estilos según el componente SearchBar */
